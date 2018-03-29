@@ -55,13 +55,19 @@
                     <view key="view" contentMode="scaleToFill" id="aa8-Mq-6NM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Muffin" translatesAutoresizingMaskIntoConstraints="NO" id="F5c-cC-GLP">
+                                <rect key="frame" x="0.0" y="64" width="420" height="685"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="iuL-0V-GEC"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aZd-p5-na2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="105" y="833"/>
+            <point key="canvasLocation" x="104.8" y="832.53373313343332"/>
         </scene>
         <!--AddView-->
         <scene sceneID="Gky-o2-682">
@@ -70,13 +76,19 @@
                     <view key="view" contentMode="scaleToFill" id="L2l-ck-Lba">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IceCream2" translatesAutoresizingMaskIntoConstraints="NO" id="ndf-yH-u4c">
+                                <rect key="frame" x="0.0" y="64" width="426" height="678"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Mj5-lX-vi5"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pca-Ec-ynn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="844" y="116"/>
+            <point key="canvasLocation" x="844" y="115.59220389805098"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="pXf-jf-HuG">
@@ -97,4 +109,8 @@
             <point key="canvasLocation" x="-634" y="117"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="IceCream2" width="1080" height="1920"/>
+        <image name="Muffin" width="640" height="1136"/>
+    </resources>
 </document>
